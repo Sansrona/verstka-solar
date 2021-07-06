@@ -1,0 +1,142 @@
+::root {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #303030;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+/* Header */
+.header {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 10px 38px;
+    color: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+
+
+.header__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 87px;
+    font-variant: small-caps;
+}
+
+.header__title span {
+    display: block;
+    font-size: 42px;
+    line-height: 57px;
+}
+
+.header__button {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.button__path {
+    transition: fill .5s
+}
+
+.header__button:hover .button__path {
+    fill: #A9A32A;
+
+}
+
+.button__text {
+    display: inline-block;
+    transform: translate(-54px, -24px);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social__item+.social__item {
+    padding-left: 20px;
+}
+
+.social__item:hover path {
+    fill: #A9A32A
+}
+
+/* End Header */
+
+
+
+/* Service */
+
+.service{
+    margin-bottom: 150px;
+}
+
+
+.service__inner {
+    display: flex;
+}
+
+.service__content{
+    margin-right: 90px;
+}
+
+.service__box {
+    margin-bottom: 50px;
+}
+
+.service__box-title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
